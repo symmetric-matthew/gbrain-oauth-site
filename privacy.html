@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy · gbrain</title>
+  <title>Privacy Policy · Gbrain</title>
   <style>
     :root { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     body { margin: 0; background: #f5f4ef; color: #1d2926; }
@@ -18,33 +18,34 @@
 </head>
 <body>
   <main>
-    <p><a href="/">← gbrain</a></p>
+    <p><a href="/">← Gbrain</a></p>
     <h1>Privacy Policy</h1>
-    <p class="updated">Effective September 2, 2026</p>
+    <p class="updated">Effective September 3, 2026</p>
 
     <h2>Scope</h2>
-    <p>gbrain is a private, single-user application operated for its operator's own accounts. It is not offered to the public.</p>
+    <p>This Gbrain deployment is a private, single-user application operated by Matthew Thompson for Symmetric Development Services and the operator's own accounts. It is not offered to the public.</p>
 
     <h2>Google data accessed</h2>
-    <p>With the operator's consent, gbrain reads Gmail messages and metadata, Google Calendar events and attendee information, Google Contacts, and the account's primary email identifier. Access is read-only. The application does not request Google Drive access and cannot send email, modify calendars, or edit contacts.</p>
+    <p>With the operator's consent, Gbrain reads Gmail messages, threads, labels, and metadata; Google Calendar calendars, events, and attendee information; Google Contacts; and the account's email identifier. Access is read-only. The application does not request Google Drive access and cannot send email, modify calendars, or edit contacts.</p>
 
     <h2>How data is used</h2>
-    <p>Google data is used only to build the operator's private searchable knowledge index, identify relevant context, and surface commitments or follow-ups. Before indexing Gmail threads, structural rules always exclude Promotions and Social messages, mailing-list messages, calendar-system messages, and automated notifications. Among the remaining messages, selection is limited to recent owner-sent mail, starred or important mail, direct mail from a known person, and substantive exchanges with at least three replies. Selected Google data may be processed by an AI service configured by the operator solely to provide this operator with personalized search, summaries, commitment extraction, and related knowledge-assistant features.</p>
+    <p>Google data is used only to build the operator's private searchable knowledge index, retrieve business and personal context, and surface commitments or follow-ups. Gmail sources use configured positive signals and deterministic rejection rules to limit ingestion to relevant correspondence and exclude spam, trash, bulk marketing, social or forum mail, mailing-list mail, calendar-system notices, and automated noise. A thread may remain relevant when the operator substantively participated in it.</p>
+    <p>Imported content and derived text may be sent to the operator-configured OpenAI API to create search embeddings or perform model inference, including summaries and recent-mail commitment extraction. This processing is limited to providing the Gbrain features requested by the operator. Google Workspace API data is not used to develop, improve, or train generalized or non-personalized artificial-intelligence or machine-learning models.</p>
 
     <h2>Storage, sharing, and retention</h2>
-    <p>Derived data is stored in systems controlled by the operator, including a local computer and private databases or repositories. Google user data is not sold, used for advertising, shared with data brokers, or disclosed to unrelated third parties. Service providers process data only as directed by the operator to run the application. Google user data is not used to create, train, or improve generalized machine-learning or artificial-intelligence models. Derived records are retained until the operator deletes them.</p>
+    <p>Imported and derived data is stored in systems controlled by the operator, including an access-restricted local computer and private databases or repositories. Google user data is not sold, used for advertising, shared with data brokers, used to determine creditworthiness, or disclosed to unrelated third parties. OpenAI and infrastructure providers process data only as needed to operate the features and storage described in this policy. Imported and derived records are retained until the operator deletes them.</p>
 
     <h2>Security and access</h2>
-    <p>OAuth credentials are stored in private, access-restricted local storage. Application access is limited to the operator's authenticated devices and accounts.</p>
+    <p>OAuth credentials are stored in access-restricted local storage. Application access is limited to the operator's authenticated devices and accounts. Network connections to Google, OpenAI, and private hosted infrastructure use HTTPS.</p>
 
     <h2>Google API Limited Use</h2>
-    <p>gbrain's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <p>Gbrain's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
 
     <h2>Revocation and deletion</h2>
     <p>The operator may revoke access at any time from Google Account security settings. Revoking access or disconnecting an account stops future access and removes the stored OAuth authorization, but it does not automatically delete previously derived records; the operator may delete those records from the private knowledge system separately.</p>
 
     <h2>Contact</h2>
-    <p>Questions about this policy may be sent to the user-support address displayed on the application's Google OAuth consent screen.</p>
+    <p>Questions about this policy may be sent to <a href="mailto:matthew@symmetricproperties.com">matthew@symmetricproperties.com</a>.</p>
   </main>
 </body>
 </html>
